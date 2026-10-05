@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#heading {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 58px;
+}
+
+.box {
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 9px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.greeting {
+    margin-top: 68px;
+}
+
+#name {
+    padding: 3px;
+    width: 105px;
+}
+
+#greetBtn {
+    padding: 4px 12px;
+    margin-left: 3px;
+    cursor: pointer;
+}
